@@ -1,8 +1,10 @@
-# rustlings (Educational Products version) [![official JetBrains project](http://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)
+# rustlings (версия для EduTools от JetBrains)
 
-Greetings and welcome to `rustlings`.
-This project contains small exercises to get you used to reading and writing Rust code.
-This includes reading and responding to compiler messages!
+Приветствуем и добро пожаловать в `rustlings`!
+Этот проект содержит маленькие упражнения, которые помогут изучить Rust, или, помочь его лучшему пониманию.
+Это реальный код, который вы можете запустить в вашей IDE, посмотреть на результат его компилляции и изменить по собственному усмотрению для проведения экспериментов.
+Мы решили перевести данные упражнения на Русский язык и дополнить всем, чего на наш взгляд не хватало.
 
-## Credits
-The materials are based on the original course [rustlings](https://github.com/rust-lang/rustlings) created by [Carol Nichols](https://github.com/carols10cents)! The course is provided with the materials from [The Rust Programming Language](https://doc.rust-lang.org/book/index.html) book, written by Steve Klabnik and Carol Nichols, with contributions from the Rust Community.
+## История
+Материалы базируются на оригинальном курсе [rustlings](https://github.com/rust-lang/rustlings) созданном [Carol Nichols](https://github.com/carols10cents)! Курс сопровождается материалами из [The Rust Programming Language](https://doc.rust-lang.org/book/index.html) книги, написанной Steve Klabnik и Carol Nichols, с дополнениями от Rust-сообщества.
+Коллеги из компании JetBrains в дальнейшем адаптировали эти материалы под свой маркет-плейс и плагин EduTools, за что им огромное спасибо, вот ссылка на их [репозиторий](https://github.com/jetbrains-academy/rustlings-course)
