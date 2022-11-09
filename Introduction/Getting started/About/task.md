@@ -1,10 +1,11 @@
-Welcome to the Educational Products' adaptation of the exciting [rustlings](https://github.com/rust-lang/rustlings) course.
+Добро пожаловать в русскоязычную адаптацию образовательных продуктов увлекательного курса [rustlings](https://github.com/rust-lang/rustlings).
 
-This course contains small exercises to get you used to reading and writing Rust code. This includes reading and responding to compiler messages!
+Этот курс содержит небольшие упражнения, которые помогут вам научиться читать и писать код на Rust. Также он включает в себя информацию о том, как читать и отвечать на сообщения компилятора!
 
-The original materials were written by [Carol Nichols](https://github.com/carols10cents). This adaptation tries to stick closely to the initial spirit of rustlings, but with a few helpful hints about Rust development added inside the IDE.
+Оригинальные материалы были написаны [Carol Nichols](https://github.com/carols10cents).
+Эта адаптация пытается придерживаться rustlings курса, но с несколькими полезными советами по разработке Rust, добавленными в IDE.
 
-Alternatively, for a first-time Rust learner, there are several other resources:
-* [The Book](https://doc.rust-lang.org/book/index.html) – the most comprehensive resource for learning Rust, by Steve Klabnik and Carol Nichols, with contributions from the Rust Community. All along the course, you will be provided with links to the relevant chapters describing the concepts discussed in a more fundamental manner.
+Кроме того, для новичков, изучающих Rust, есть несколько других ресурсов:
+* [The Book](https://doc.rust-lang.org/book/index.html) – самый полный ресурс для изучения Rust, созданный Стивом Клабником и Кэрол Николс при участии сообщества Rust. На протяжении всего курса вам будут предоставляться ссылки на соответствующие главы, описывающие концепции, обсуждаемые в более фундаментальной форме.
 
-* [Rust By Example](https://doc.rust-lang.org/rust-by-example/index.html) – an online collection of runnable examples that illustrate various Rust concepts and standard libraries.
+* [Rust By Example](https://doc.rust-lang.org/rust-by-example/index.html) – онлайн-коллекция с примерами кода, иллюстрирующих различные концепции и стандартные библиотеки Rust.

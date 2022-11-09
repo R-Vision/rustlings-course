@@ -1,3 +1,3 @@
 fn main() {
-    // put you code here to launch it
+    // поместите свой код здесь, чтобы его запустить
 }

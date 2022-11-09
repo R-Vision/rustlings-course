@@ -1,8 +1,8 @@
-## Editor
+## Редактор
 
-The <b>Editor</b> is your playground where you will be programming. You can experiment here while you work on the theoretical tasks and quizzes without being checked.
+<b>Редактор</b> — это ваша игровая площадка, где вы будете программировать. Здесь вы можете экспериментировать, работая над теоретическими заданиями и тестами без проверки.
 
-For programming assignments, the Editor is where you’ll fix the existing code or write your own code from scratch. This code will be checked.
+Для заданий по программированию в редакторе вы можете исправить существующий код или написать свой собственный с нуля. Этот код будет проверен.
 
 <style>
 img {
@@ -14,9 +14,9 @@ img {
 <img src="edu_editor.png" class="center" width="100%"/>
 
 
-To run your code at any time, choose the Run option from the context menu or press <span style="color: #509DD6">&shortcut:Run;</span>:
+Чтобы запустить код в любое время, выберите пункт Run в контекстном меню или нажмите <span style="color: #509DD6">⌃R</span>:
 
 <img src="edu_context_menu_run.png" class="center" width="100%"/>
 
-It can sometimes be helpful to run the `main()` function (contained in the `main.rs` file, however note that not all the tasks have it) to see what output your code produces.
-If you want to go back to the Editor and focus on your code, the fastest way to do it is with the Hide All Windows command (<span style="color: #509DD6">&shortcut:HideAllWindows;</span>). To get all the windows back, repeat the command.
+Иногда бывает полезно запустить функцию `main()` (в файле `main.rs`, однако обратите внимание, что она есть не во всех задачах), чтобы увидеть, какой результат выдает ваш код.
+Если вы хотите вернуться в редактор и сосредоточиться на своем коде, самый быстрый способ сделать это — использовать команду «Hide All Windows» (<span style="color: #509DD6">⇧⌘F12</span>). Чтобы вернуть все окна, повторите команду.
