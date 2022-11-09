@@ -1,18 +1,18 @@
-## EduTools plugin overview
+## Обзор плагина EduTools
 
-This lesson will help you take your first steps with the [EduTools plugin](https://www.jetbrains.com/help/education/educational-products.html) and use it to learn Rust.
+Этот урок поможет вам сделать первые шаги с [плагином EduTools] (https://www.jetbrains.com/help/education/educational-products.html) и использовать его для изучения Rust.
 
-With the EduTools plugin, you can learn programming languages and tools by completing coding tasks, and get instant feedback right inside the IDE.
+С подключаемым модулем EduTools вы можете изучать языки и инструменты программирования, выполняя задачи по написанию кода, и получать мгновенную обратную связь прямо в среде IDE.
 
-Enough talking – let's get started!
+Хватит болтать – приступим!
 
-If you're already familiar with the interface, you can skip this lesson.
+Если вы уже знакомы с интерфейсом, можете пропустить этот урок.
 
-### Working with courses
-Every course available in EduTools is structured as a list of lessons. Lessons, in turn, can be grouped into sections. Each lesson contains several tasks.
+### Работа с курсами
+Каждый курс, доступный в EduTools, структурирован в виде списка уроков. Уроки, в свою очередь, можно группировать в разделы. Каждый урок содержит несколько заданий.
 
-When you open a course, you will see the main tool windows used for navigation: <b>Course View</b>, <b>Editor</b>, and <b>Task Description</b>:
+При открытии курса вы увидите основные окна инструментов, используемые для навигации: <b>Course View</b>, <b>Editor</b> и <b>Task Description</b>:
 
 <img src="edu_course_overview.png" width="100%"/>
 
-Click the "Next" button to navigate to the next task.
+Нажмите кнопку «Далее», чтобы перейти к следующей задаче.

@@ -1,55 +1,57 @@
 ## Hello, World!
 
-Now, let’s write your first Rust program. It’s traditional when learning a new language to write a little program that prints the text `Hello, world!` to the screen, so we’ll do the same here!
+Теперь давайте напишем вашу первую программу на Rust. Традиционно при изучении нового языка напишем небольшую программу, которая печатает текст `Hello, world!` на экран, так что мы сделаем то же самое здесь!
 
-You can see the **Editor** window in the left. This is your sandbox and you can test your code here.
-The `main.rs` file has the following lines:
+Слева вы видите окно **Editor**. Это ваша песочница, и вы можете протестировать свой код здесь. В файле `main.rs` есть следующие строки:
 
 ```rust
 fn main() {
-    // put your code here to launch it
+    // поместите свой код здесь, чтобы его запустить
 }
-``` 
-Now let's replace the line inside the main function with the code:
+```
+
+Теперь давайте заменим строку внутри функции main кодом:
 
 ```rust
     println!("Hello, world!");
 ```
-##### Example: A program that prints Hello, world!
+##### Пример: программа, которая печатает Hello, world!
 
-To run this code click on **Run** icon at the left-upper corner of the editor. Click **Check** button in the **Task Description** window to run the tests checking the correctness of the solution provided.
+Чтобы запустить этот код, щелкните значок **Run** в левом верхнем углу редактора. Нажмите кнопку **Check** в окне **Task Description**, чтобы запустить тесты, проверяющие правильность предоставленного решения.
 
 If `Hello, world!` did print, congratulations! You’ve officially written a Rust program. That makes you a Rust programmer—welcome!
 
-### Anatomy of a Rust Program
+Если на экран выводится `Hello, world!`, поздравляем! Вы официально написали программу на Rust. Это делает вас программистом на Rust — добро пожаловать!
 
-Let’s review in detail what just happened in your Hello, world! program. Here’s the first piece of the puzzle:
+### Анатомия программы на Rust
+
+Давайте подробно рассмотрим, что только что произошло в вашем Hello, world! программа. Вот первая часть головоломки:
 
 ```rust
-
 fn main() {
 
 }
 ```
 
-These lines define a function in Rust. The `main` function is special: it is always the first code that runs in every executable Rust program. The first line declares a function named `main` that has no parameters and returns nothing. If there were parameters, they would go inside the parentheses, `()`.
+Эти строки определяют функцию в Rust. Функция `main` особенная: она всегда запускается первой в каждой исполняемой программе Rust.
+Первая строка объявляет функцию с именем `main`, которая не имеет параметров и ничего не возвращает. Если бы были параметры, они бы заключались в круглые скобки `()`.
 
-Also, note that the function body is wrapped in curly brackets, `{}`. Rust requires these around all function bodies. It’s good style to place the opening curly bracket on the same line as the function declaration, adding one space in between.
+Также обратите внимание, что тело функции заключено в фигурные скобки `{}`. Rust требует их для всех тел функций. Хороший стиль — разместить открывающую фигурную скобку на той же строке, что и объявление функции, добавив между ними один пробел.
 
-At the time of this writing, an automatic formatter tool called `rustfmt` is under development. If you want to stick to a standard style across Rust projects, `rustfmt` will format your code in a particular style. The Rust team plans to eventually include this tool with the standard Rust distribution, like `rustc`. So depending on when you read this book, it might already be installed on your computer! Check the online documentation for more details.
+На момент написания этой статьи инструмент автоматического форматирования под названием `rustfmt` находился в разработке. Если вы хотите придерживаться стандартного стиля в проектах на Rust, `rustfmt` отформатирует ваш код в определенном стиле. Команда Rust планирует в конечном итоге включить этот инструмент в стандартный дистрибутив Rust, например `rustc`. Так что в зависимости от того, когда вы читаете эту книгу, она может быть уже установлена ​​на вашем компьютере! Проверьте онлайн-документацию для получения более подробной информации.
 
-Inside the `main` function is the following code:
+Внутри функции `main` находится следующий код:
 
 ```rust
     println!("Hello, world!");
 ```
 
-This line does all the work in this little program: it prints text to the screen. There are four important details to notice here. First, Rust style is to indent with four spaces, not a tab.
+Эта строка выполняет всю работу в этой маленькой программе: она выводит текст на экран. Здесь следует обратить внимание на четыре важные детали. Во-первых, стиль Rust предполагает отступ в четыре пробела, а не табуляцию.
 
-Second, println! calls a Rust macro. If it called a function instead, it would be entered as `println` (without the `!`). We’ll discuss Rust macros in more detail a bit later. For now, you just need to know that using a `!` means that you’re calling a macro instead of a normal function.
+Во-вторых, println! вызывает макрос Rust. Если вместо этого он вызывает функцию, она будет введена как `println` (без `!`). Мы обсудим макросы Rust более подробно чуть позже. На данный момент вам просто нужно знать, что использование `!` означает, что вы вызываете макрос вместо обычной функции.
 
-Third, you see the `"Hello, world!"` string. We pass this string as an argument to `println!`, and the string is printed to the screen.
+В-третьих, вы видите строку `"Hello, world!"` Мы передаем эту строку в качестве аргумента `println!`, и строка печатается на экране.
 
-Fourth, we end the line with a semicolon (`;`), which indicates that this expression is over and the next one is ready to begin. Most lines of Rust code end with a semicolon.
+В-четвертых, мы заканчиваем строку точкой с запятой (`;`), которая указывает на то, что это выражение закончилось и готово начаться следующее. Большинство строк кода на Rust заканчиваются точкой с запятой.
 
-_You can refer to the following chapter in the Rust Programming Language book: [Hello, World!](https://doc.rust-lang.org/stable/book/ch01-02-hello-world.html)_
+_Вы можете обратиться к следующей главе книги по языку программирования Rust: [Hello, World!](https://doc.rust-lang.org/stable/book/ch01-02-hello-world.html)_
